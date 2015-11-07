@@ -30,15 +30,15 @@
                    HorizontalAlignment="Center"
                    VerticalAlignment="Bottom"
                    FontSize="22"></TextBlock>
-        <TextBlock Text="**Go to Orders View**"
-                   Grid.Row="2"
+        <Button    Grid.Row="2"
                    Grid.Column="0"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Center"></TextBlock>
-        <TextBlock Text="**Submit Order**"
-                   Grid.Row="2"
+                   VerticalAlignment="Center"
+                   Click="Button_ToExpeditePage">Go to Orders View</Button>
+        <Button    Grid.Row="2"
                    Grid.Column="1"
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Center"></TextBlock>
+                   VerticalAlignment="Center"
+                   Click="Button_ToOrderPage">Submit Order</Button>
     </Grid>
 </Page>
