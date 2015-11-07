@@ -20,10 +20,12 @@
             <ColumnDefinition Width="2*"></ColumnDefinition>
             <ColumnDefinition Width="2*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Special Requests: Order Items:"
+        <TextBlock Text="Special Requests: "
                    Grid.Row="1"
-                   Grid.Column="1"
-                   Grid.ColumnSpan="2"></TextBlock>
+                   Grid.Column="1"></TextBlock>
+        <TextBlock Text="Order Items:"
+                   Grid.Row="1"
+                   Grid.Column="2"></TextBlock>
         <TextBlock Text="**Add to Order**"
                    Grid.Row="4"
                    Grid.Column="0"
